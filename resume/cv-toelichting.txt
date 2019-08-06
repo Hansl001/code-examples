@@ -1,0 +1,9 @@
+TOELICHTING
+
+Mijn CV wordt op mijn eigen site www.cereza.nl getoond als pagina via React Router.
+De data wordt ingelezen uit een JSON file via een eigen API op mijn site.
+
+Verbeteringen  voor de nabije toekomst:
+- Pagina opslplitsen in aparte REact componenten om het iets duidelijker te maken
+- Zoeken en sorteren op pagina op basis van de tags en andere criteria
+- Verbinden van het CV aan de chatbot op de hoofdpagina en die laten reageren opp zoekresultaat uit CV

@@ -1,0 +1,11 @@
+TOELICHTING
+
+Foldout op basis van css
+Is natuurljk ook mogelijk met javascipt, alleen moet je dan in javascript schermafmetingen opvragen.
+Dit vertroebelt weer scheiding css en js, waar ik geen voorstander van ben.
+
+Deze css oplossing geeft de mogelijkheid om een lijst via een embed aan te geven hoeveel regels er ingeklapt getoond worden (bijv foldOutList(1)
+Op basis van aantal li's wordt vanzelf een 'Toon meer' button getoond indien noodzakelijk.
+En reageert direct responsive (ja oplossing zou een listener oid moeten hebben)
+
+Op screenshots is 'Gerelateerde producten' zelfde foldout lijst als 'Geschikte printers'.

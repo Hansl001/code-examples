@@ -1,0 +1,103 @@
+@mixin foldOutList($initialLines) {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: inline-block;
+
+        width: 100%;
+
+        vertical-align: top;
+
+        @media only screen and (min-width: (64px*6)) {
+            width: 50%;
+        }
+
+        @media only screen and (min-width: (64px*16)) {
+            width: (100% / 3);
+        }
+
+        &.actionShowMore {
+            width: 100%;
+
+            text-align: center;
+        }
+    }
+
+    &.collapsed {
+        li {
+            display: none;
+
+            &:nth-child(n+1):nth-child(-n+#{$initialLines}):not(.actionShowMore) {
+                display: inline-block;
+            }
+
+            &:nth-last-child(n + #{$initialLines + 2}):first-child ~ li.actionShowMore {
+                display: block;
+            }
+
+            @media only screen and (min-width: (64px*10)) {
+                &:nth-child(n+1):nth-child(-n + #{$initialLines * 2}):not(.actionShowMore) {
+                    display: inline-block;
+                }
+
+                &:nth-last-child(n + #{$initialLines + 3}):first-child ~ li.actionShowMore {
+                    display: block;
+                }
+
+                &:nth-child(n+1):nth-child(-n + #{$initialLines * 2}) + li.actionShowMore {
+                    display: none;
+                }
+            }
+
+            @media only screen and (min-width: (64px*16)) {
+                &:nth-child(n+1):nth-child(-n + #{$initialLines * 3}):not(.actionShowMore) {
+                    display: inline-block;
+                }
+
+                &:nth-last-child(n + #{$initialLines + 4}):first-child ~ li.actionShowMore {
+                    display: block;
+                }
+
+                &:nth-child(n+1):nth-child(-n + #{$initialLines * 3}) + li.actionShowMore {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &.expanded {
+        li {
+            display: inline-block;
+
+            &.actionShowMore {
+                display: none;
+            }
+
+            &:nth-last-child(n + 3):first-child ~ li.actionShowMore {
+                display: block;
+            }
+
+            @media only screen and (min-width: (64px*10)) {
+                &:nth-last-child(n + 4):first-child ~ li.actionShowMore {
+                    display: block;
+                }
+
+                &:nth-child(n+1):nth-child(-n + #{$initialLines * 2}) + li.actionShowMore {
+                    display: none;
+                }
+            }
+
+            @media only screen and (min-width: (64px*16)) {
+                &:nth-last-child(n + 5):first-child ~ li.actionShowMore {
+                    display: block;
+                }
+
+                &:nth-child(n+1):nth-child(-n + #{$initialLines * 3}) + li.actionShowMore {
+                    display: none;
+                }
+            }
+        }
+    }
+}

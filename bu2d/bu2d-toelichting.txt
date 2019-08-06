@@ -1,0 +1,17 @@
+TOELICHITNG BU2D
+
+OVBIKE
+
+Data opgehaald via eigen API, in dit geval ov fiets-data
+Data wordt verwerkt via MobX store.
+Dit is alternatief voor Redux, iets eenvoudiger van opzet.
+
+Openingsstatus uitgerekend op basis van JSON met openingstijden.
+Addertje onder het gras: indien sluitingstijd volgend dag na 24:00 uur is. (Komt bij CoffeCompany niet voor, maar bijv bij OVFiets wel)
+
+LISTS
+
+Op zicht bekende lijstjes.
+Opslag echter ook weer in store.
+Wijzigen gebeurt op de pagina zelf om ervaring vanzelfstprekend te houden (zonder aparte edit popup oid)
+(headers en items zijn inputs)

@@ -1,0 +1,502 @@
+{
+    "general_data": {
+        "title": "General information",
+        "data": {
+            "firstname": {
+                "title": "First name",
+                "value": "Hansl"
+            },
+            "lastname": {
+                "title": "Last name",
+                "value": "Kerstens"
+            },
+            "function": {
+                "title": "Functions",
+                "value": [
+                    "Senior front-end developer",
+                    "Senior mobile developer"
+                ]
+            },
+            "websites": {
+                "title": "Web sites",
+                "value": [
+                    "www.cereza.nl",
+                    "www.seducedbycereza.com"
+                ]
+            },
+            "languages": {
+                "title": "Lamguages",
+                "value": [
+                    "Ductch (mother tongue)",
+                    "English (fluent)",
+                    "German (intermediate)",
+                    "French (basic)"
+                ]
+            }
+        }
+    },
+    "about": {
+        "title": "About me",
+        "data": {
+            "description_short": {
+                "title": "Just a short introduction",
+                "descr": "I am an experienced senior front-end developer with extensive knowledge of interface design and a love voor mobile applications. I combine thorough technical skills with an eye for graphic design, a combination I believe is necessary in creating useful, usable and meaningful internet applications that are a joy to use."
+            },
+            "description_long": {
+                "title": "A bit more in detail",
+                "descr": "I have been working for more than 16 years for one of the bigger full-service internet companies in the Netherlands. In the beginning of 2013 I started working as a freelance front-end developer under the name of Seduced by Cereza. Besides working on assignments, I created (and am still working on) a number of private projects, mostly mobile apps."
+            },
+            "personal_interests": {
+                "title": "Personal interests",
+                "value": [
+                    "Cycling",
+                    "Chocolate",
+                    "South Africa",
+                    "Pop art",
+                    "Big cats",
+                    "Wood working"
+                ]
+            },
+            "education": {
+                "title": "Education",
+                "value": [
+                    {
+                        "extra": {
+                            "title": "2000 - 2001",
+                            "value": "Ichtus Hogeschool, Rotterdam",
+                            "descr": "Design Management (parttime)"
+                        }
+                    },
+                    {
+                        "university": {
+                            "title": "1985 - 1992",
+                            "value": "Delft University of Technology",
+                            "descr": "Civil Engineering, masters River Engineering"
+                        }
+                    },
+                    {
+                        "highschool": {
+                            "title": "1979 - 1985",
+                            "value": "Norbertus College",
+                            "descr": "Gymnasium B"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "skills": {
+        "title": "Skills", 
+        "data": {
+            "front_end": {
+                "title": "Front-end techniques",
+                "value": [
+                    {
+                        "html": {
+                            "title": "HTML",
+                            "value": "xx",
+                            "exp_years": 20,
+                            "exp_level": 5,
+                            "tags": []
+                        }
+                    },
+                    {
+                        "css": {
+                            "title": "CSS",
+                            "value": "xx",
+                            "exp_years": 15,
+                            "exp_level": 5,
+                            "tags": []
+                        }
+                    },
+                    {
+                        "sass": {
+                            "title": "SASS/LESS",
+                            "value": "xx",
+                            "exp_years": 10,
+                            "exp_level": 5,
+                            "tags": []
+                        }
+                    },
+                    {
+                        "javascript": {
+                            "title": "Javascript",
+                            "value": "xx",
+                            "exp_years": 10,
+                            "exp_level": 4,
+                            "tags": []
+                        }
+                    },
+                    {
+                        "jquery": {
+                            "title": "jQuery",
+                            "value": "xx",
+                            "exp_years": 8,
+                            "exp_level": 4,
+                            "tags": []
+                        }
+                    }
+                ]
+            },
+            "frameworks": {
+                "title": "Frameworks",
+                "value": [
+                    {
+                        "react": {
+                            "title": "React",
+                            "value": "xx",
+                            "exp_years": 1.5,
+                            "exp_level": 3,
+                            "tags": []
+                        }
+                    },
+                    {
+                        "aurelia": {
+                            "title": "Aurelia",
+                            "value": "xx",
+                            "exp_years": 4,
+                            "exp_level": 3,
+                            "tags": []
+                        }
+                    },
+                    {
+                        "durandal": {
+                            "title": "Durandal",
+                            "value": "xx",
+                            "exp_years": 2,
+                            "exp_level": 2,
+                            "tags": []
+                        }
+                    }
+                ]
+            },
+            "back_end": {
+                "title": "Back-end techniques",
+                "value": [
+                    {
+                        "php": {
+                            "title": "PHP",
+                            "value": "xx",
+                            "exp_years": 10,
+                            "exp_level": 3,
+                            "tags": []
+                        }
+                    }
+                ]
+            },
+            "design_tools": {
+                "title": "Design tools",
+                "value": [
+                    {
+                        "fireworks": {
+                            "title": "Fireworks",
+                            "value": "xx",
+                            "exp_years": 10,
+                            "exp_level": 4,
+                            "tags": []
+                        }
+                    },
+                    {
+                        "photoshop": {
+                            "title": "Photoshop",
+                            "value": "xx",
+                            "exp_years": 15,
+                            "exp_level": 4,
+                            "tags": []
+                        }
+                    }
+                ]
+            },
+            "cms": {
+                "title": "Content Management Systems",
+                "value": [
+                    {
+                        "wordpress": {
+                            "title": "Wordpress",
+                            "value": "xx",
+                            "exp_years": 15,
+                            "exp_level": 4,
+                            "tags": []
+                        }
+                    },
+                    {
+                        "magento": {
+                            "title": "Magento 2",
+                            "value": "xx",
+                            "exp_years": 1,
+                            "exp_level": 2,
+                            "tags": []
+                        }
+                    },
+                    {
+                        "prestashop": {
+                            "title": "PrestaShop",
+                            "value": "xx",
+                            "exp_years": 1,
+                            "exp_level": 2,
+                            "tags": []
+                        }
+                    }
+                ]
+            },
+            "others": {
+                "title": "Other tools and techniques",
+                "value": [
+                    {
+                        "jira": {
+                            "title": "JIRA",
+                            "value": "xx",
+                            "exp_years": 10,
+                            "exp_level": 4,
+                            "tags": []
+                        }
+                    },
+                    {
+                        "git": {
+                            "title": "Git/Bitbucket",
+                            "value": "xx",
+                            "exp_years": 10,
+                            "exp_level": 4,
+                            "tags": []
+                        }
+                    },
+                    {
+                        "gulp": {
+                            "title": "Gulp/Grunt",
+                            "value": "xx",
+                            "exp_years": 5,
+                            "exp_level": 3,
+                            "tags": []
+                        }
+                    },
+                    {
+                        "scrum": {
+                            "title": "Scrum",
+                            "value": "xx",
+                            "exp_years": 5,
+                            "exp_level": 4,
+                            "tags": []
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "projects": {
+        "title": "Latest projects",
+        "data": {
+            "printabout": {
+                "title": "oct 2018 - present",
+                "value": "PrintAbout.nl",
+                "project": "Website maintenance and upgrading",
+                "descr": "The website and -shop of PrintAbout.nl is in constant development. Responsibilities include refactoring and upgrading old code to latest standards. At the same time new functionalities are implemented to increase the conversaion rate. This is done in close cooperation with back-end developers and SEO/SEA specialists.",
+                "techniques": ["html", "javascript", "css", "sass", "react"],
+                "tags": ["html", "javascript", "responsive", "react"],
+                "status": "online",
+                "category": "website",
+                "url": "http://www.printabout.nl"
+            },
+            "adam" : {
+                "title": "dec 2018/jan 2019/april 2019",
+                "value": "Amsterdam Labels",
+                "project": "Website design and implementation",
+                "descr": "The website of this fashion distributor needed to get a professional look with a clean design. Responsible for design/HTML/CSS (SASS) and Aurelia implementation. The website is easily updated with new collections. Fully responsive, also the collection videos",
+                "techniques": ["html", "sass", "aurelia"],
+                "tags": ["html", "css", "sass", "aurelia", "responsive"],
+                "status": "online",
+                "category": "website",
+                "url": "http://www.amsterdamlabels.nl"
+            },
+            "pon": {
+                "title": "jan 2018 - june 2018",
+                "value": "PON Bicycle Group",
+                "project": "New website Kalkhoff Bicycles",
+                "descr": "The new webiste of Kalkhoff is made with Magento 2. Responsibilities consisted of delivering HTML/CSS/Javascript and implementating these in Magento in cooperation with back-end developers and an Amsterdam-base design agency.",
+                "techniques": ["html", "sass", "javascript", "magento"],
+                "tags": ["responsive", "magento"],
+                "status": "online",
+                "category": "website",
+                "url": "http://www.kalkhoff.de"
+            },
+            "driveguide" : {
+                "title": "jun 2016 - sep 2017",
+                "value": "DriveGuide",
+                "project": "Client app for non-lease market",
+                "descr": "Justlease wants to also cater to the non-lease market by means of a seperately bought OBD-plug and accompanying app. The app is newly constructed from the ground up. I was responsible fot the whole front-end development of the app, in cooperation with a number of back-end programmers and visual designers. I implemented all javascript functionality as well as the design in HTML/CSS (partly designed myself).",
+                "techniques": ["html", "sass", "javascript", "aurelia", "cordova"],
+                "tags": ["javascript", "aurelia", "cordova"],
+                "status": "in stores",
+                "category": "app",
+                "url": ""
+            },
+            "justlease" : {
+                "title": "feb 2015 - jun 2016",
+                "value": "Justlease",
+                "project": "App updates and refactoring",
+                "descr": "The app was initially  build by an external agency. The request was to facilitate in house the maintenance and further development of the app. Responsible for refactoring and further development of the app.",
+                "techniques": ["html", "javascript", "durandal"],
+                "tags": [],
+                "status": "in stores",
+                "category": "app",
+                "url": ""
+            },
+            "justlease2" : {
+                "title": "feb 2015 - jun 2016",
+                "value": "Justlease",
+                "project": "Website maintenance",
+                "descr": "Responsible for web site maintenance and implementation of new functionalities",
+                "techniques": ["html", "sass", "wordpress"],
+                "tags": ["wordpress"],
+                "status": "online",
+                "category": "website",
+                "url": "https://www.justlease.nl"
+            },
+            "goris" : {
+                "title": "dec 2014",
+                "value": "Bouwbedrijf Goris",
+                "project": "Website design and implementation",
+                "descr": "The company had a need for an online presence to offer prospects a chance to view projects conducted in the past.",
+                "techniques": ["html", "wordpress"],
+                "tags": ["design"],
+                "status": "online",
+                "category": "website",
+                "url": "http://www.bouwbedrijfgoris.nl"
+            },
+            "two4two" : {
+                "title": "2012/2019",
+                "value": "Two4Two",
+                "project": "Website design and implementation",
+                "descr": "The company needed a first site to promote their business and lower the barrier in this sensitive matter with a matching design.<br/><br/>First made in plain PHP in 2012, the site was refactored into WordPress templates in 2019.",
+                "techniques": ["html", "sass", "php", "wordpress"],
+                "tags": ["html", "css", "php", " design"],
+                "status": "online",
+                "category": "website",
+                "url": "http://www.two4two.nl"
+            }
+        }
+    },
+    "own_productions": {
+        "title": "Private projects",
+        "data": {
+            "benuptodate": {
+                "title": "oct 2018 - present",
+                "value": "Ben uptodate",
+                "project": "App to be always up-to-date with the things that matter to you",
+                "descr": "The objective is to create an app that automatically updates the things that matter to you most. It is fully customizable for the subjects you want to keep track off.",
+                "techniques": ["html", "sass", "react", "cordova"],
+                "tags": ["app"],
+                "status": "in development",
+                "category": "app",
+                "url": ""
+            },
+            "brasnbros": {
+                "title": "oct 2018 - present",
+                "value": "Bras n Bros",
+                "project": "Store with REact front-end presentation layer",
+                "descr": "The objective is to create a store in PrestaShop with an presentation layer on top, made with React, using the PrestaShop api",
+                "techniques": ["react", "php"],
+                "tags": ["react", "php", "api", "prestashop"],
+                "status": "on hold",
+                "category": "app",
+                "url": ""
+            },
+            "blow" : {
+                "title": "dec 2018",
+                "value": "Blow",
+                "project": "Game with non-standard controls",
+                "descr": "In Blow you can score points by hitting the targets ball with an object ball. The object ball is controlled by blowing into the microphone of the device.",
+                "techniques": ["aurelia"],
+                "tags": ["aurelia", "php", "api"],
+                "status": "in development",
+                "category": "app",
+                "url": ""
+            },
+            "pusssh": {
+                "title": "dec 2018",
+                "value": "Pusssh",
+                "project": "Beat the well-knowm shell trick",
+                "descr": "The objective was to recreate online the 3-ball shell trick that is played all over the world. It has a few extra featrues to enhance the difficulty.",
+                "techniques": ["html", "aurelia"],
+                "tags": ["app"],
+                "status": "in stores",
+                "category": "app",
+                "url": ""
+            }
+        }
+    },
+    "work_experiences": {
+        "title": "Work experience",
+        "data": {
+            "seduced_b" : {
+                "title": "2015 - current",
+                "value": "Seduced by Cereza (owner)",
+                "descr": "Senior mobile developer",
+                "url": "https://www.facebook.com/SeducedByCereza"
+            },
+            "cerezay": {
+                "title": "2013 - current",
+                "value": "Cereza Design (owner)",
+                "descr": "Senior front-end developer",
+                "url": "http://www.cereza.nl"
+             },
+            "info": {
+                "title": "1996 -2013",
+                "value": "Info.nl",
+                "descr": "Senior front-end developer",
+                "url": "http://www.info.nl"
+            }
+        }
+    },
+    "contact_data": {
+        "title": "Contact information",
+        "data": {
+            "addresses": {
+                "title": "Addresses",
+                "value": [
+                    {
+                        "street": {
+                            "title": "Street",
+                            "value": "Slotlaan"
+                        },
+                        "housenr": {
+                            "title": "House number",
+                            "value": "316"
+                        },
+                        "zipcode": {
+                            "title": "Zip code",
+                            "value": "3701 GX"
+                        },
+                        "city": {
+                            "title": "City",
+                            "value": "Zeist"
+                        }
+                    },{
+                        "street": {
+                            "title": "Street",
+                            "value": "Victoria street"
+                        },
+                        "housenr": {
+                            "title": "House number",
+                            "value": "11"
+                        },
+                        "zipcode": {
+                            "title": "Zip code",
+                            "value": "6705"
+                        },
+                        "city": {
+                            "title": "City",
+                            "value": "Robertson"
+                        }
+                    }
+                ]
+            },
+            "websites": {
+                "title": "Web sites",
+                "value": [
+                    "www.cereza.nl",
+                    "www.facebook.com/SeducedByCereza"
+                ]
+            }
+        }
+    }
+}
